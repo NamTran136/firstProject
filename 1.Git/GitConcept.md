@@ -1,43 +1,43 @@
 # Các thuật ngữ trong Git
 
-## Repository: Kho lưu trữ(VD: GitHub)
+## Repository
 
-## Commit: Cam kết
+## Commit
 
-## Branch: Nhánh
+## Branch
 
-## Checkout: Đổi nhánh
+## Checkout
 
-## Fork: là một bản copy của một repository (Kho chứa source code của bạn trên Github).
+## Fork
 
-## Fetch: là lệnh tải xuống các nội dung từ Remote repository mà không làm thay đổi trạng thái của Local repository
+## Fetch
 
-## Head: là branch đang được check out thời điểm hiện tại
+## Head
 
-## Index: là nơi để chuẩn bị cho việc commit lên repository
+## Index
 
-## Merge: gộp nhánh
+## Merge
 
-## Origin: kho lưu trữ từ xa
+## Origin
 
-## Master: Nhánh chính thức
+## Master
 
-## Pull: sử dụng để tìm nạp (fetch) và tải xuống nội dung từ remote repository và cập nhật local repository sao cho phù hợp với nội dung đó
+## Pull
 
-## Push: đẩy commit mới lên remote repo
+## Push
 
-## Remote: Tham chiếu tới các kho chứa trung tâm
+## Remote
 
-## Rebase: gộp nhánh + viết lại lịch sử commit base được kế thừa từ nhánh gộp
+## Rebase
 
-## Stash: Đưa nội dung file về trạng thát ban đầu
+## Stash
 
-## Tags: Chức năng đặt tên hay đánh dấu cho một commit bất kỳ, nhằm giúp ta dễ dàng tìm kiếm đến commit đó
+## Tags
 
-## Upstream: đề cập đến nơi bạn push các thay đổi của mình, thường là nhánh chính (master branch).
+## Upstream
 
-## Working Directory: Khu vực làm việc gồm branch master là bản chính, còn các branch mới tạo là bản sao
+## Working Directory
 
-## Staging area: là tệp tin chứa thông tin về trạng thái của 1 file trong dự án
+## Staging area
 
-## Commit area: nơi lưa trữ các commit??
+## Commit area
