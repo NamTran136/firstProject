@@ -1,0 +1,16 @@
+.view-more {
+    padding: 8px 0;
+    display: flex;
+    clear: both!important;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.link {
+    margin-right: 4px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #0074BD!important;
+    opacity: 1;
+}

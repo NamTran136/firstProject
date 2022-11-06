@@ -1,53 +1,70 @@
-# Assignment
+# Getting Started with Create React App
 
-## Outcomes
-In this assignment, you will build a webpage with React together.
-[Here is the design page](https://xd.adobe.com/view/3b1d0ea3-ec2e-4420-a46c-c22d14d4e60f-6e4e/specs/). The whole page is divided into 6 divisions. Please choose at least 4 of them to finish.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Announcement & News
+## Available Scripts
 
-- Image Callery & Video Gallery
+In the project directory, you can run:
 
-- Document Gallery
+### `npm start`
 
-- Quick Links
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Events
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- How Do I
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
- ## Requirements
-- Following the details of design page
-- Using component thoughts(Class Component).
-- Using TypeScript.
-- Using SCSS
-- Adapting all devices better
-- Complete at least 4 webparts(**How Do I** is a **MUST** have).
-- If you still have time after you finish the 4 webparts, add the other 2 into your project also.
-- **Make Sure** you finished the functions and styles in the demo before you add customizations or improvements.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Preparation
-- Install Node
-  The version must be 10.22.1, you can find installation package from https://nodejs.org/dist/v10.22.1/
-- Install VS Code
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## How to start the project
-This project is based on "Create React App"(An official recommend way to start building a new single-page application), you can quickly set up your development environment with following steps.
+### `npm run eject`
 
-1. Clone the code from git
-2. Under the file you cloned, open cmd window, run **npm i**, then it will take a while to download packages 
-![picture](./cmd.png)
-3. After finishing, run **npm start**, service will host on **http://localhost:3000/** automatically.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-4. Enjoy coding! The page will automatically reload if you make changes to the code.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### For run TypeScript Project
-Go to EnvironmentForTypeScript folder, 
-- Run **npm i**, then it will take a while to download packages
-- In case you failed when install packages, you can try another version of nodeJS (8.1.4 / 16.17.0)
-- After finishing, run **npm start**, service will host on **http://localhost:3000/** automatically.
-- Change code from JavaScript to TypeScript.
-- You guys can code directly in this folder.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
