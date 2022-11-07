@@ -10,8 +10,7 @@ import VideoGallery from "~/Components/VideoGallery";
 import DocumentGallery from "~/Components/DocumentGallery";
 import QuickLinks from "~/Components/QuickLinks";
 import Events from "~/Components/Events";
-
-import Clear from "~/Components/Clear";
+import HowDoI from "~/Components/HowDoI";
 
 const cx = classNames.bind(styles)
 
@@ -34,9 +33,7 @@ function Layouts() {
                     <div className={cx('extra-content', 'col-4', 'col-s-6')}>
                         <QuickLinks />
                         <Events />
-                        <div id="how-do-i">
-
-                        </div>
+                        <HowDoI />
                     </div>
                 </div>
             </div>
