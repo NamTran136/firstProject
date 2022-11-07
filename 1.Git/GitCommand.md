@@ -1,7 +1,6 @@
 # Các lệnh trong Git
 
-## git config
-
+## 1. git config: 
 [Trang-nguyen] cho phép bạn xem hoặc chỉnh sửa các biến cấu hình để quản lý toàn bộ các khía cạnh của Git như giao diện hay hoạt động.
 [Cedrus-Nguyen] git config dùng dể cấu hình (cài đặt) cho repo (kho lưu trữ).
 
@@ -29,9 +28,6 @@ có một số option khi config là: **--local** và **--global**
 
 - dùng để đổi qua lại giữa các nhánh
 - dùng git checkout -b name_branch: để tạo ra nhánh mới đồng thời chuyển qua nhánh đó
-
-## git remote
-
 
 ## git clone
 
@@ -155,9 +151,18 @@ thường sử dụng khi bạn đang code dở, nhưng cần quay về commit g
 > **Tác dụng tổng quát:** có thể xem lệnh *git stash* như là một nút "tạm dừng" cho tiến trình công việc. Lệnh này khá giống như lệnh *git reset --hard*, nó cung cấp một branch sạch sẽ nhưng nó cũng ghi lại các thay đổi đầy đủ bên trong.// lệnh *git - seset* sẽ nói sau.
 >![alt](https://images.viblo.asia/82ce364c-11c6-401e-9662-7d072289eecc.png)
 >1. **git stash save**
+=======
+## 9. git clone: tạo bản sao cục bộ của kho lưu trữ từ xa. Nó truy cập kho lưu trữ thông qua một URL. Thông thường, kho lưu trữ gốc được đặt trên một máy chủ từ xa, thường là từ một dịch vụ Git như GitHub, Bitbucket hoặc GitLab.
 
-## git log
+## 10. git pull: được sử dụng để tìm nạp (fetch) và tải xuống nội dung từ remote repository và cập nhật local repository sao cho phù hợp với nội dung đó.
+### git pull origin = git fetch origin + git merge origin/master
 
+## 11. git push: để đẩy các commit mới ở máy trạm (local repo) lên server (remote repo). Nguồn để đẩy lên là nhánh mà con trỏ HEAD đang trỏ tới (nhánh làm việc)
+
+## 12. git stash: Khi file đã được đưa vào stage hoặc đã tồn tại trước đó( được committed), git stash sẽ đưa nội dung file về trạng thái ban đầu 
+>>>>>>> 93c77b6856fd299025d4892c95c7ce12161c6726
+
+## 13. git log: 
 > Dùng để xem lại lịch sử các commit, nhằm giám sát sự thay đổi của dự án
 
 [Cedrus-Nguyen] dùng để xem lại lịch sử các commit, nhằm giám sát sự thay đổi của dự án.
@@ -199,3 +204,4 @@ thường sử dụng khi bạn đang code dở, nhưng cần quay về commit g
 >>>```
 >***Kết Thúc***
 ***
+
